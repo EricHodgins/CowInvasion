@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0001071BB7BC9F00739363 /* LaserBeam.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7A0001061BB7BC9F00739363 /* LaserBeam.caf */; settings = {ASSET_TAGS = (); }; };
+		7A0001091BB85A4700739363 /* TitleSceneSong.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7A0001081BB85A4700739363 /* TitleSceneSong.caf */; settings = {ASSET_TAGS = (); }; };
+		7A00010B1BB85E0100739363 /* CowSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7A00010A1BB85E0100739363 /* CowSound.caf */; settings = {ASSET_TAGS = (); }; };
+		7A00010D1BB87A1700739363 /* AlienShipExplosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7A00010C1BB87A1700739363 /* AlienShipExplosion.caf */; settings = {ASSET_TAGS = (); }; };
+		7A00010F1BB87C2700739363 /* FarmerExplosionSFX.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7A00010E1BB87C2700739363 /* FarmerExplosionSFX.caf */; settings = {ASSET_TAGS = (); }; };
+		7A0001111BB881C700739363 /* BackgroundNoise.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7A0001101BB881C700739363 /* BackgroundNoise.caf */; settings = {ASSET_TAGS = (); }; };
+		7A0001131BB8830700739363 /* GunshotSFX.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7A0001121BB8830700739363 /* GunshotSFX.caf */; settings = {ASSET_TAGS = (); }; };
+		7A0001181BB8913F00739363 /* GunShotParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0001161BB8913F00739363 /* GunShotParticle.sks */; settings = {ASSET_TAGS = (); }; };
+		7A0001191BB8913F00739363 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0001171BB8913F00739363 /* spark.png */; settings = {ASSET_TAGS = (); }; };
 		7A129D541BB0F46700A7D8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A129D531BB0F46700A7D8D2 /* main.m */; };
 		7A129D571BB0F46700A7D8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A129D561BB0F46700A7D8D2 /* AppDelegate.m */; };
-		7A129D5A1BB0F46700A7D8D2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A129D591BB0F46700A7D8D2 /* GameScene.m */; };
 		7A129D5C1BB0F46700A7D8D2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A129D5B1BB0F46700A7D8D2 /* GameScene.sks */; };
 		7A129D5F1BB0F46700A7D8D2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A129D5E1BB0F46700A7D8D2 /* GameViewController.m */; };
 		7A129D621BB0F46700A7D8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A129D601BB0F46700A7D8D2 /* Main.storyboard */; };
@@ -17,6 +25,23 @@
 		7A129D671BB0F46700A7D8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A129D651BB0F46700A7D8D2 /* LaunchScreen.storyboard */; };
 		7A129D721BB0F46800A7D8D2 /* Cow_InvasionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A129D711BB0F46800A7D8D2 /* Cow_InvasionTests.m */; };
 		7A129D7D1BB0F46800A7D8D2 /* Cow_InvasionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A129D7C1BB0F46800A7D8D2 /* Cow_InvasionUITests.m */; };
+		7A129D8D1BB0FB8A00A7D8D2 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7A129D8C1BB0FB8A00A7D8D2 /* Sprites.atlas */; settings = {ASSET_TAGS = (); }; };
+		7A129D901BB0FCCE00A7D8D2 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A129D8F1BB0FCCE00A7D8D2 /* TitleScene.m */; settings = {ASSET_TAGS = (); }; };
+		7AF991691BBB8A5A00462A58 /* Asteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF991681BBB8A5A00462A58 /* Asteroid.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1C01BB39E9300078FFF /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1BF1BB39E9300078FFF /* Util.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1D51BB39EB900078FFF /* GameOverNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1C21BB39EB900078FFF /* GameOverNode.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1D61BB39EB900078FFF /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1C41BB39EB900078FFF /* GamePlayScene.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1D71BB39EB900078FFF /* HudNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1C61BB39EB900078FFF /* HudNode.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1D81BB39EB900078FFF /* BeamNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1C81BB39EB900078FFF /* BeamNode.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1D91BB39EB900078FFF /* CowNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1CA1BB39EB900078FFF /* CowNode.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1DA1BB39EB900078FFF /* GroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1CC1BB39EB900078FFF /* GroundNode.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1DB1BB39EB900078FFF /* Farmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1CE1BB39EB900078FFF /* Farmer.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1DC1BB39EB900078FFF /* AlienNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1D01BB39EB900078FFF /* AlienNode.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1DD1BB39EB900078FFF /* AlienWithBeamNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1D21BB39EB900078FFF /* AlienWithBeamNode.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1DE1BB39EB900078FFF /* ProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFED1D41BB39EB900078FFF /* ProjectileNode.m */; settings = {ASSET_TAGS = (); }; };
+		7AFED1E31BB3A05400078FFF /* ExplosionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7AFED1DF1BB3A05400078FFF /* ExplosionParticle.sks */; settings = {ASSET_TAGS = (); }; };
+		7AFED1E41BB3A05400078FFF /* ForceFieldParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7AFED1E01BB3A05400078FFF /* ForceFieldParticle.sks */; settings = {ASSET_TAGS = (); }; };
+		7AFED1E51BB3A05400078FFF /* FarmerExplosionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7AFED1E11BB3A05400078FFF /* FarmerExplosionParticle.sks */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +62,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A0001061BB7BC9F00739363 /* LaserBeam.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LaserBeam.caf; sourceTree = "<group>"; };
+		7A0001081BB85A4700739363 /* TitleSceneSong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitleSceneSong.caf; sourceTree = "<group>"; };
+		7A00010A1BB85E0100739363 /* CowSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CowSound.caf; sourceTree = "<group>"; };
+		7A00010C1BB87A1700739363 /* AlienShipExplosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlienShipExplosion.caf; sourceTree = "<group>"; };
+		7A00010E1BB87C2700739363 /* FarmerExplosionSFX.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FarmerExplosionSFX.caf; sourceTree = "<group>"; };
+		7A0001101BB881C700739363 /* BackgroundNoise.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BackgroundNoise.caf; sourceTree = "<group>"; };
+		7A0001121BB8830700739363 /* GunshotSFX.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GunshotSFX.caf; sourceTree = "<group>"; };
+		7A0001161BB8913F00739363 /* GunShotParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GunShotParticle.sks; path = ../GunShotParticle.sks; sourceTree = "<group>"; };
+		7A0001171BB8913F00739363 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
 		7A129D4F1BB0F46700A7D8D2 /* Cow Invasion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cow Invasion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A129D531BB0F46700A7D8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A129D551BB0F46700A7D8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A129D561BB0F46700A7D8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A129D581BB0F46700A7D8D2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		7A129D591BB0F46700A7D8D2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		7A129D5B1BB0F46700A7D8D2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		7A129D5D1BB0F46700A7D8D2 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		7A129D5E1BB0F46700A7D8D2 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
@@ -56,6 +88,36 @@
 		7A129D781BB0F46800A7D8D2 /* Cow InvasionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cow InvasionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A129D7C1BB0F46800A7D8D2 /* Cow_InvasionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cow_InvasionUITests.m; sourceTree = "<group>"; };
 		7A129D7E1BB0F46800A7D8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A129D8C1BB0FB8A00A7D8D2 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		7A129D8E1BB0FCCE00A7D8D2 /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
+		7A129D8F1BB0FCCE00A7D8D2 /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
+		7AF991671BBB8A5A00462A58 /* Asteroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asteroid.h; sourceTree = "<group>"; };
+		7AF991681BBB8A5A00462A58 /* Asteroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asteroid.m; sourceTree = "<group>"; };
+		7AFED1BE1BB39E9300078FFF /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		7AFED1BF1BB39E9300078FFF /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		7AFED1C11BB39EB900078FFF /* GameOverNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverNode.h; sourceTree = "<group>"; };
+		7AFED1C21BB39EB900078FFF /* GameOverNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverNode.m; sourceTree = "<group>"; };
+		7AFED1C31BB39EB900078FFF /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
+		7AFED1C41BB39EB900078FFF /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
+		7AFED1C51BB39EB900078FFF /* HudNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudNode.h; sourceTree = "<group>"; };
+		7AFED1C61BB39EB900078FFF /* HudNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudNode.m; sourceTree = "<group>"; };
+		7AFED1C71BB39EB900078FFF /* BeamNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeamNode.h; sourceTree = "<group>"; };
+		7AFED1C81BB39EB900078FFF /* BeamNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeamNode.m; sourceTree = "<group>"; };
+		7AFED1C91BB39EB900078FFF /* CowNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CowNode.h; sourceTree = "<group>"; };
+		7AFED1CA1BB39EB900078FFF /* CowNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CowNode.m; sourceTree = "<group>"; };
+		7AFED1CB1BB39EB900078FFF /* GroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundNode.h; sourceTree = "<group>"; };
+		7AFED1CC1BB39EB900078FFF /* GroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundNode.m; sourceTree = "<group>"; };
+		7AFED1CD1BB39EB900078FFF /* Farmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farmer.h; sourceTree = "<group>"; };
+		7AFED1CE1BB39EB900078FFF /* Farmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farmer.m; sourceTree = "<group>"; };
+		7AFED1CF1BB39EB900078FFF /* AlienNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienNode.h; sourceTree = "<group>"; };
+		7AFED1D01BB39EB900078FFF /* AlienNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlienNode.m; sourceTree = "<group>"; };
+		7AFED1D11BB39EB900078FFF /* AlienWithBeamNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienWithBeamNode.h; sourceTree = "<group>"; };
+		7AFED1D21BB39EB900078FFF /* AlienWithBeamNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlienWithBeamNode.m; sourceTree = "<group>"; };
+		7AFED1D31BB39EB900078FFF /* ProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileNode.h; sourceTree = "<group>"; };
+		7AFED1D41BB39EB900078FFF /* ProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileNode.m; sourceTree = "<group>"; };
+		7AFED1DF1BB3A05400078FFF /* ExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionParticle.sks; sourceTree = "<group>"; };
+		7AFED1E01BB3A05400078FFF /* ForceFieldParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ForceFieldParticle.sks; sourceTree = "<group>"; };
+		7AFED1E11BB3A05400078FFF /* FarmerExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FarmerExplosionParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +145,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A0001011BB7AF4500739363 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				7A00010C1BB87A1700739363 /* AlienShipExplosion.caf */,
+				7A0001101BB881C700739363 /* BackgroundNoise.caf */,
+				7A00010A1BB85E0100739363 /* CowSound.caf */,
+				7A00010E1BB87C2700739363 /* FarmerExplosionSFX.caf */,
+				7A0001121BB8830700739363 /* GunshotSFX.caf */,
+				7A0001081BB85A4700739363 /* TitleSceneSong.caf */,
+				7A0001061BB7BC9F00739363 /* LaserBeam.caf */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
 		7A129D461BB0F46700A7D8D2 = {
 			isa = PBXGroup;
 			children = (
@@ -106,17 +182,43 @@
 		7A129D511BB0F46700A7D8D2 /* Cow Invasion */ = {
 			isa = PBXGroup;
 			children = (
-				7A129D551BB0F46700A7D8D2 /* AppDelegate.h */,
-				7A129D561BB0F46700A7D8D2 /* AppDelegate.m */,
-				7A129D581BB0F46700A7D8D2 /* GameScene.h */,
-				7A129D591BB0F46700A7D8D2 /* GameScene.m */,
-				7A129D5B1BB0F46700A7D8D2 /* GameScene.sks */,
-				7A129D5D1BB0F46700A7D8D2 /* GameViewController.h */,
-				7A129D5E1BB0F46700A7D8D2 /* GameViewController.m */,
-				7A129D601BB0F46700A7D8D2 /* Main.storyboard */,
+				7A0001011BB7AF4500739363 /* Sound */,
+				7A129D8C1BB0FB8A00A7D8D2 /* Sprites.atlas */,
 				7A129D631BB0F46700A7D8D2 /* Assets.xcassets */,
+				7AFED1BE1BB39E9300078FFF /* Util.h */,
+				7AFED1BF1BB39E9300078FFF /* Util.m */,
+				7A129D8E1BB0FCCE00A7D8D2 /* TitleScene.h */,
+				7A129D8F1BB0FCCE00A7D8D2 /* TitleScene.m */,
+				7AFED1C11BB39EB900078FFF /* GameOverNode.h */,
+				7AFED1C21BB39EB900078FFF /* GameOverNode.m */,
+				7AFED1C31BB39EB900078FFF /* GamePlayScene.h */,
+				7AFED1C41BB39EB900078FFF /* GamePlayScene.m */,
+				7AFED1C51BB39EB900078FFF /* HudNode.h */,
+				7AFED1C61BB39EB900078FFF /* HudNode.m */,
+				7AFED1C71BB39EB900078FFF /* BeamNode.h */,
+				7AFED1C81BB39EB900078FFF /* BeamNode.m */,
+				7AFED1C91BB39EB900078FFF /* CowNode.h */,
+				7AFED1CA1BB39EB900078FFF /* CowNode.m */,
+				7AFED1CB1BB39EB900078FFF /* GroundNode.h */,
+				7AFED1CC1BB39EB900078FFF /* GroundNode.m */,
+				7AF991671BBB8A5A00462A58 /* Asteroid.h */,
+				7AF991681BBB8A5A00462A58 /* Asteroid.m */,
+				7AFED1CD1BB39EB900078FFF /* Farmer.h */,
+				7AFED1CE1BB39EB900078FFF /* Farmer.m */,
+				7AFED1CF1BB39EB900078FFF /* AlienNode.h */,
+				7AFED1D01BB39EB900078FFF /* AlienNode.m */,
+				7AFED1D11BB39EB900078FFF /* AlienWithBeamNode.h */,
+				7AFED1D21BB39EB900078FFF /* AlienWithBeamNode.m */,
+				7AFED1D31BB39EB900078FFF /* ProjectileNode.h */,
+				7AFED1D41BB39EB900078FFF /* ProjectileNode.m */,
+				7AFED1DF1BB3A05400078FFF /* ExplosionParticle.sks */,
+				7AFED1E01BB3A05400078FFF /* ForceFieldParticle.sks */,
+				7AFED1E11BB3A05400078FFF /* FarmerExplosionParticle.sks */,
+				7A0001161BB8913F00739363 /* GunShotParticle.sks */,
+				7A0001171BB8913F00739363 /* spark.png */,
+				7A129D601BB0F46700A7D8D2 /* Main.storyboard */,
 				7A129D651BB0F46700A7D8D2 /* LaunchScreen.storyboard */,
-				7A129D681BB0F46800A7D8D2 /* Info.plist */,
+				7A129D5B1BB0F46700A7D8D2 /* GameScene.sks */,
 				7A129D521BB0F46700A7D8D2 /* Supporting Files */,
 			);
 			path = "Cow Invasion";
@@ -125,7 +227,12 @@
 		7A129D521BB0F46700A7D8D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7A129D551BB0F46700A7D8D2 /* AppDelegate.h */,
+				7A129D561BB0F46700A7D8D2 /* AppDelegate.m */,
+				7A129D5D1BB0F46700A7D8D2 /* GameViewController.h */,
+				7A129D5E1BB0F46700A7D8D2 /* GameViewController.m */,
 				7A129D531BB0F46700A7D8D2 /* main.m */,
+				7A129D681BB0F46800A7D8D2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -252,9 +359,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A129D5C1BB0F46700A7D8D2 /* GameScene.sks in Resources */,
+				7A0001191BB8913F00739363 /* spark.png in Resources */,
+				7A0001111BB881C700739363 /* BackgroundNoise.caf in Resources */,
+				7A0001091BB85A4700739363 /* TitleSceneSong.caf in Resources */,
 				7A129D671BB0F46700A7D8D2 /* LaunchScreen.storyboard in Resources */,
+				7A00010D1BB87A1700739363 /* AlienShipExplosion.caf in Resources */,
+				7A0001071BB7BC9F00739363 /* LaserBeam.caf in Resources */,
 				7A129D641BB0F46700A7D8D2 /* Assets.xcassets in Resources */,
+				7A00010B1BB85E0100739363 /* CowSound.caf in Resources */,
+				7A0001181BB8913F00739363 /* GunShotParticle.sks in Resources */,
 				7A129D621BB0F46700A7D8D2 /* Main.storyboard in Resources */,
+				7AFED1E51BB3A05400078FFF /* FarmerExplosionParticle.sks in Resources */,
+				7A129D8D1BB0FB8A00A7D8D2 /* Sprites.atlas in Resources */,
+				7A00010F1BB87C2700739363 /* FarmerExplosionSFX.caf in Resources */,
+				7AFED1E31BB3A05400078FFF /* ExplosionParticle.sks in Resources */,
+				7AFED1E41BB3A05400078FFF /* ForceFieldParticle.sks in Resources */,
+				7A0001131BB8830700739363 /* GunshotSFX.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +399,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF991691BBB8A5A00462A58 /* Asteroid.m in Sources */,
+				7AFED1DD1BB39EB900078FFF /* AlienWithBeamNode.m in Sources */,
+				7AFED1C01BB39E9300078FFF /* Util.m in Sources */,
 				7A129D5F1BB0F46700A7D8D2 /* GameViewController.m in Sources */,
 				7A129D571BB0F46700A7D8D2 /* AppDelegate.m in Sources */,
-				7A129D5A1BB0F46700A7D8D2 /* GameScene.m in Sources */,
+				7AFED1D91BB39EB900078FFF /* CowNode.m in Sources */,
+				7AFED1DB1BB39EB900078FFF /* Farmer.m in Sources */,
+				7AFED1D71BB39EB900078FFF /* HudNode.m in Sources */,
+				7AFED1D81BB39EB900078FFF /* BeamNode.m in Sources */,
+				7AFED1D61BB39EB900078FFF /* GamePlayScene.m in Sources */,
+				7AFED1DC1BB39EB900078FFF /* AlienNode.m in Sources */,
 				7A129D541BB0F46700A7D8D2 /* main.m in Sources */,
+				7AFED1DE1BB39EB900078FFF /* ProjectileNode.m in Sources */,
+				7AFED1DA1BB39EB900078FFF /* GroundNode.m in Sources */,
+				7A129D901BB0FCCE00A7D8D2 /* TitleScene.m in Sources */,
+				7AFED1D51BB39EB900078FFF /* GameOverNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +469,85 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7A0337981BBA2D6500BAF15B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Hodgins (E3QZ6M9437)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eric Hodgins (E3QZ6M9437)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2f3e09b7-83bf-4702-afc9-7297f05796d2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		7A0337991BBA2D6500BAF15B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Hodgins (E3QZ6M9437)";
+				INFOPLIST_FILE = "Cow Invasion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CowInvasion.CowInvasion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2f3e09b7-83bf-4702-afc9-7297f05796d2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		7A03379A1BBA2D6500BAF15B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cow InvasionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hodginsEric.Cow-InvasionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cow Invasion.app/Cow Invasion";
+			};
+			name = Distribution;
+		};
+		7A03379B1BBA2D6500BAF15B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cow InvasionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hodginsEric.Cow-InvasionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cow Invasion";
+				USES_XCTRUNNER = YES;
+			};
+			name = Distribution;
+		};
 		7A129D7F1BB0F46800A7D8D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -354,7 +565,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Eric Hodgins (HZMA85UN27)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eric Hodgins (E3QZ6M9437)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -376,6 +588,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2f3e09b7-83bf-4702-afc9-7297f05796d2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -398,7 +611,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Hodgins (E3QZ6M9437)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eric Hodgins (E3QZ6M9437)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -413,6 +627,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2f3e09b7-83bf-4702-afc9-7297f05796d2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -423,10 +638,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Hodgins (E3QZ6M9437)";
 				INFOPLIST_FILE = "Cow Invasion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodginsEric.Cow-Invasion";
+				PRODUCT_BUNDLE_IDENTIFIER = CowInvasion.CowInvasion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2f3e09b7-83bf-4702-afc9-7297f05796d2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,10 +653,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Hodgins (E3QZ6M9437)";
 				INFOPLIST_FILE = "Cow Invasion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodginsEric.Cow-Invasion";
+				PRODUCT_BUNDLE_IDENTIFIER = CowInvasion.CowInvasion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2f3e09b7-83bf-4702-afc9-7297f05796d2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -499,6 +722,7 @@
 			buildConfigurations = (
 				7A129D7F1BB0F46800A7D8D2 /* Debug */,
 				7A129D801BB0F46800A7D8D2 /* Release */,
+				7A0337981BBA2D6500BAF15B /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -508,24 +732,30 @@
 			buildConfigurations = (
 				7A129D821BB0F46800A7D8D2 /* Debug */,
 				7A129D831BB0F46800A7D8D2 /* Release */,
+				7A0337991BBA2D6500BAF15B /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A129D841BB0F46800A7D8D2 /* Build configuration list for PBXNativeTarget "Cow InvasionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A129D851BB0F46800A7D8D2 /* Debug */,
 				7A129D861BB0F46800A7D8D2 /* Release */,
+				7A03379A1BBA2D6500BAF15B /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A129D871BB0F46800A7D8D2 /* Build configuration list for PBXNativeTarget "Cow InvasionUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A129D881BB0F46800A7D8D2 /* Debug */,
 				7A129D891BB0F46800A7D8D2 /* Release */,
+				7A03379B1BBA2D6500BAF15B /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,3 @@
+Do this to convert to a good sound effect for the game on MP3s.
+
+afconvert -d LEI16 -f 'caff' theFileName.mp3

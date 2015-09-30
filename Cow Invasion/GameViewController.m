@@ -7,7 +7,7 @@
 //
 
 #import "GameViewController.h"
-#import "GameScene.h"
+#import "TitleScene.h"
 
 @implementation SKScene (Unarchive)
 
@@ -30,20 +30,21 @@
 
 @implementation GameViewController
 
-- (void)viewDidLoad
+- (void)viewDidLayoutSubviews
 {
-    [super viewDidLoad];
+    [super viewDidLayoutSubviews];
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    skView.showsFPS = NO;
+    skView.showsNodeCount = NO;
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+    SKScene *scene = [TitleScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
+
     
     // Present the scene.
     [skView presentScene:scene];
