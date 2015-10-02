@@ -302,6 +302,10 @@
         SKEmitterNode *gunShotParticle = [NSKeyedUnarchiver unarchiveObjectWithFile:[[NSBundle mainBundle] pathForResource:@"GunShotParticle" ofType:@"sks"]];
         gunShotParticle.position = CGPointMake(farmer.position.x - 10, farmer.position.y + 30);
         [self addChild:gunShotParticle];
+        [gunShotParticle runAction:[SKAction waitForDuration:0.1] completion:^{
+            [gunShotParticle removeFromParent];
+        }];
+        
         
         // gunshot sound
         [self runAction:self.gunshotSound];
@@ -408,6 +412,7 @@
         TitleScene *titleScene = [TitleScene sceneWithSize:self.frame.size];
         SKTransition *fadeOut = [SKTransition fadeWithDuration:2.0];
         fadeOut.pausesOutgoingScene = NO;
+        [self.laserBeamSFX stop];
         [self.view presentScene:titleScene transition:fadeOut];
     }];
 }
