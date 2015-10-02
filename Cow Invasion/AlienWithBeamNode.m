@@ -21,6 +21,7 @@
     AlienWithBeamNode *alienWithBeam = [self spriteNodeWithImageNamed:@"Alien_1"];
     alienWithBeam.alienActionComplete = NO;
     alienWithBeam.position = position;
+    alienWithBeam.zPosition = 6;
     
     alienWithBeam.name = @"AlienWithBeam";
     alienWithBeam.xScale = 0.5;
@@ -28,7 +29,8 @@
     
     [alienWithBeam setupPhysicsBody];
     
-    BeamNode *beam = [BeamNode beamAtPosition:CGPointMake(0, -10)];
+    BeamNode *beam = [BeamNode beamAtPosition:CGPointMake(0, -20)];
+    beam.hidden = YES;
     [alienWithBeam addChild:beam];
     
     return alienWithBeam;
@@ -57,7 +59,10 @@
 }
 
 -(void)makeAlienBeamAtCow {
+    //BeamNode *beam = [BeamNode beamAtPosition:CGPointMake(0, -20)];
+    //[self addChild:beam];
     BeamNode *beam = (BeamNode *)[self childNodeWithName:@"Beam"];
+    beam.hidden = NO;
     SKAction *beamMoveToCow = [SKAction moveTo:CGPointMake(0, -250) duration:0.3];
     [beam runAction:beamMoveToCow completion:^{
         beam.position = CGPointMake(0, -20);

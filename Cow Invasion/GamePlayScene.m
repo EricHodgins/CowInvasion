@@ -360,6 +360,7 @@
         [alien removeFromParent];
         [farmer removeFromParent];
         
+        [self checkScore];
         [self transitionEndingGameOverScene];
         
     } else if (firstBody.categoryBitMask == CollisionCategoryCow && secondBody.categoryBitMask == CollisionCategoryBeam) {
@@ -401,6 +402,7 @@
         Farmer *farmer = (Farmer *)firstBody.node;
         [farmer removeFromParent];
         
+        [self checkScore];
         [self transitionEndingGameOverScene];
     }
 }
